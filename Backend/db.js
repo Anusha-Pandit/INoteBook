@@ -9,7 +9,7 @@
 // module.exports=connectToMongo;
 
 const mongoose = require('mongoose');
-const mongoURI = 'mongodb://localhost:27017'; // Replace with your MongoDB URI
+const mongoURI = 'mongodb://localhost:27017/iNoteBook'; // Replace with your MongoDB URI
 
 const connectToMongo = async () => {
   try {
